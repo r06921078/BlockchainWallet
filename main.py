@@ -1,7 +1,7 @@
 from block_io import BlockIo
 import sys
 version = 2
-PIN = 'r06943145'
+PIN = 'r06921078'
 label = input('Choose one cryptocurrency:\nBitcoin\nLitecoin\nDogecoin\n---------------------------------------------------\n')
 API_Keys = {"Bitcoin":"4b82-48e6-1373-563e", "Litecoin":"c999-6c44-8836-7569", "Dogecoin":"8fb6-1e9e-0ce8-453b"}
 block_io = BlockIo(API_Keys[label], PIN, version)
